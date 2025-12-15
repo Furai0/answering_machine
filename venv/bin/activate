@@ -68,3 +68,6 @@ fi
 # Call hash to forget past commands. Without forgetting
 # past commands the $PATH changes we made may not be respected
 hash -r 2> /dev/null
+export API_ID=29446725
+export API_HASH='f5d7ac4c7b94db8cb960b0ee97b28179'
+
