@@ -1,7 +1,7 @@
 def convert_emails_compact(input_file, output_file):
 
     try:
-        with open(input_file, 'r', encoding='windows-1251') as f:
+        with open(input_file, 'r', encoding='utf-8') as f:
             emails = [line.strip() for line in f if line.strip()]
 
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -14,4 +14,4 @@ def convert_emails_compact(input_file, output_file):
         print(f"Ошибка: {e}")
 
 
-convert_emails_compact("russian.txt", "russian123.py")
+convert_emails_compact("mats", "mats.py")
