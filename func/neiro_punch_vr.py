@@ -6,6 +6,7 @@
 #             response = requests.post(
 #             url="https://openrouter.ai/api/v1/chat/completions",
 #             headers={
+
 #                 "Authorization": "Bearer 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",
 #                 "Content-Type": "application/json",
 #             },
@@ -95,3 +96,4 @@ def neiro_punch(text):
         content = choice.get("content") or choice.get("text") or ""
 
     return content.strip()
+
